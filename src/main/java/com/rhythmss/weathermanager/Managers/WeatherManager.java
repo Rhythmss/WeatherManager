@@ -34,6 +34,7 @@ public class WeatherManager {
         return httpRequest.getResponse();
     }
 
+
     public String getApiKey() {
         return apiKey;
     }
