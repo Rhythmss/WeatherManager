@@ -33,7 +33,6 @@ public class WeatherManager {
         httpRequest.sendRequest(BASE_ENDPOINT + endpoint + "&appid=" + apiKey, method);
         return httpRequest.getResponse();
     }
-
     public String getApiKey() {
         return apiKey;
     }
