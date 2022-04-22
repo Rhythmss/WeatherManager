@@ -38,5 +38,4 @@ public class WeatherManager {
         return apiKey;
     }
 
-
 }
